@@ -1,0 +1,7 @@
+# Large data files excluded from the repo (GitHub blocks anything over 100MB,
+# and several of these are 100-190MB). Keep the pipeline code + README;
+# regenerate outputs locally by running main.py against your own data.
+*.csv
+*.xlsx
+__pycache__/
+*.pyc
